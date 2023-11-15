@@ -1,4 +1,4 @@
-echo -e '\e033[34m'
+echo -e '\e[40m\e[92m'
 echo -e '                                     '
 echo -e '     _____                           '
 echo -e ' ___|   _ |__  _____  ____    __   _ '
