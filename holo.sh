@@ -8,7 +8,7 @@ if exists curl; then
 else
   sudo apt install curl -y < "/dev/null"
 fi
-curl -s https://raw.githubusercontent.com/ngoikhoctrencay97/logo/main/logo.sh?token=GHSAT0AAAAAACKLEJUNPLVE4N5NVWA6T2OYZKU7NYQ | bash
+curl -s https://raw.githubusercontent.com/ngoikhoctrencay97/logo/main/logo.sh | bash
 echo "==================================================="
 sleep 2
 
@@ -53,4 +53,3 @@ echo -e "              \e[1m\e[32m2. Downloading and building binaries--> \e[0m"
 #INSTALL
 cd || return
 npm install -g @holographxyz/cli
-fi
