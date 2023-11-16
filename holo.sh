@@ -53,3 +53,4 @@ echo -e "              \e[1m\e[32m2. Downloading and building binaries--> \e[0m"
 #INSTALL
 cd || return
 npm install -g @holographxyz/cli
+fi
