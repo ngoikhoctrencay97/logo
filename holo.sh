@@ -53,3 +53,9 @@ echo -e "              \e[1m\e[32m2. Downloading and building binaries--> \e[0m"
 #INSTALL
 cd || return
 npm install -g @holographxyz/cli
+echo -e "              \e[1m\e[32m3. Create SystemD--> \e[0m" && sleep 1
+;;
+"Delete Node")
+;;
+"Exit")
+exit
