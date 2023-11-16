@@ -36,7 +36,7 @@ echo "******************************************"
 read CHAINSTACK_HTTP_ADDRESS
 echo "******************************************"
 echo export ALCHEMY_HTTP_ADDRESS=${ALCHEMY_HTTP_ADDRESS} >> $HOME/.bash_profile
-echo export CHAINSTACK_HTTP_ADDRESS=${ALCHEMY_HTTP_ADDRESS} >> $HOME/.bash_profile
+echo export CHAINSTACK_HTTP_ADDRESS=${CHAINSTACK_HTTP_ADDRESS} >> $HOME/.bash_profile
 source ~/.bash_profile
 
 echo -e "\e[1m\e[32m1. Updating packages and dependencies--> \e[0m" && sleep 1
@@ -54,8 +54,11 @@ echo -e "              \e[1m\e[32m2. Downloading and building binaries--> \e[0m"
 cd || return
 npm install -g @holographxyz/cli
 echo -e "              \e[1m\e[32m3. Create SystemD--> \e[0m" && sleep 1
+break
 ;;
 "Delete Node")
+break
 ;;
 "Exit")
-exit
+esac
+done
